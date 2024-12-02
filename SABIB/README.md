@@ -1,78 +1,66 @@
-# SABIB
+# SABIB: Smart Water Flow Monitoring and Leak Detection System
 ## Save Today, Secure Tomorrow
 
-### Overview 
-The Sabib Water Flow Measurement System is a revolutionary project aimed at addressing water scarcity challenges through innovative technology. This system utilizes advanced sensors and a centralized database to provide real-time monitoring of water usage, empowering users to manage their consumption efficiently. Additionally, it incorporates features such as remote water shut-off to mitigate wastage and promote conservation efforts.
+## Abstract
 
-### Demo https://sabib.team/
-### Video Recap Teaser [here](https://www.youtube.com/watch?v=G7SVpNwDWdk)
+### Background and Problem Statement  
+Water scarcity is a pressing issue in the Souss Massa region of Morocco, impacting agriculture, daily life, and community sustainability. Current water usage practices are inefficient due to the lack of real-time monitoring, leading to resource wastage and heightened strain on limited water supplies.
 
-### Installation 
-- Hardware Setup: Install the sensors along the main water pipeline according to the provided instructions. Connect the sensors to the centralized database unit.
+### Impact and Proposed Solution  
+SABIB aims to address this challenge with an innovative solution: a smart water flow monitoring and leak detection system. By providing real-time insights into water consumption and detecting leaks, SABIB empowers individuals and businesses to implement sustainable water management practices, conserving resources and reducing costs.
 
-- Software Setup: Access the web application through a compatible web browser. Follow the on-screen instructions to log in and connect to the centralized database.
+### Project Outcomes and Deliverables  
+- **Smart Water Flow Measurement Device**: A hardware device capable of monitoring water flow and consumption.  
+- **Leak Detection Model**: AI-powered leak detection to identify anomalies in water usage patterns.  
+- **Dashboard**: A user-friendly interface displaying real-time water usage data and alerts.  
+- **Documentation**: Detailed project documentation, including setup instructions and technical details.  
+
+---
+
+## Instructions
+
+### Prerequisites  
+- Hardware: ESP32, flow sensor, electrovalve, LEDs, and necessary connectors.  
+- Software: Arduino IDE, Python 3.x, and required libraries (listed in `requirements.txt`).  
+- Accounts: ThingSpeak API for data visualization.
+
+### Hardware Setup  
+1. Connect the flow sensor to the ESP32's GPIO pin.  
+2. Wire the electrovalve to the designated pin.  
+3. Connect the LEDs to GPIO pins for status indicators.  
+4. Power the ESP32 and verify connections.  
+
+### Software Setup  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-repo/sabib.git
+   cd sabib
+
+2. Install Python dependencies:
+```bash
+    pip install -r requirements.txt
+```
+3. Flash the ESP32 with the provided esp32_code.ino.
+
+4. Run the leak detection model:
+```bash
+
+python leak_detection_model.py
+```
 
 
-### Usage 
-- Monitoring Water Usage: Log in to the web application to view real-time data on water consumption, flow rate, and other relevant metrics.
+### Pitch Vedio : (here)[https://drive.google.com/file/d/11e1IZ-wIoxZ3nnoahPDl8tspk21IvXmd/view?usp=drive_link]
 
-- Setting Alerts: Customize alert settings within the web application to receive notifications about unusual water usage or potential leaks.
-
-- Remote Control: Utilize the web application to remotely activate or deactivate the water shut-off device, providing convenient control over water supply.
+### Presentation Slides: (here)[https://www.canva.com/design/DAGX92HWk6c/DPwoumVbXRVd3yMPsINIjA/edit?utm_content=DAGX92HWk6c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
 
 
-### Technologies
-
-#### Design 
-- Figma is an excellent tool for designing user interfaces and creating prototypes. [design link](https://www.figma.com/design/fY457IQ5zDLcJEGPKG2d0F/Sabib?node-id=0%3A1&t=EFgJ3JbrysYRHq0j-1)
-
-
-#### Front-End
-- React: A popular JavaScript library for building user interfaces.
-- Heroicons: A set of icons for use in web projects.
-- Bootstrap Icons: Provides a library of icons for use with Bootstrap.
-- Material-UI: A React UI framework that implements Google's Material Design.
-- React ApexCharts: A React wrapper for ApexCharts, which is used for interactive charts and graphs.
-- React Input Slider: A customizable slider component for React.
-- Sass: A preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS).
-- Font Awesome: A library of icons and fonts.
-
-#### Back-End
-- Clerk React: Provides authentication and user management functionalities.
-- Firebase: Provides backend services such as authentication, real-time database, and hosting.
-- ThingSpeak: IoT platform for collecting and storing data from the Sabib Water Flow Measurement System's sensors.
-
-
-
-#### Version Control and Collaboration
-
-- Git: Disributed Version Control System.
-- GitHub: Web-based platform for Version Control and Collaboration 
-
-#### Cloud Services And Deployement
-- Namecheap: Domain registration and Management.
-- Vercel:  Vercel offers Deployment Protection to secure your project's preview and production URLs with fine-grained access control.
-
+### Prototype
+![alt text](image-1.png)
 
 
 ### Screenshot
 ![alt text](screencapture-sabib-team-2024-05-16-15_22_46.png)
 
-### Presntation Slides 
-[Presenataion slides](https://www.canva.com/design/DAGFL0778F0/cFZHv6uFMbV1Vi1jdZmztQ/edit?utm_content=DAGFL0778F0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-
-
-### Contributing:
-Special thanks to [Josh-Techie](https://github.com/josh-techie) for collaboration, especially in the electrical part.
-
-
-### Author
-- [Saad AIDDI](https://github.com/saad484)
-- [LinkedIn](https://linkedin.com/in/saad-aiddi)
-- [Gmail](mailto:sabib.team@gmail.com)
 
 
 ### LICENSE
