@@ -40,6 +40,9 @@ SABIB aims to address this challenge with an innovative solution: a smart water 
     pip install -r requirements.txt
 ```
 3. Flash the ESP32 with the provided esp32_code.ino.
+```bash    
+    SABIB_esp.ino
+```
 
 4. Run the leak detection model:
 ```bash
