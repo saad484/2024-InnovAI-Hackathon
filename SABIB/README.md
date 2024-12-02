@@ -32,10 +32,9 @@ SABIB aims to address this challenge with an innovative solution: a smart water 
 
 ### Software Setup  
 1. Clone the repository:  
-   ```bash
+```bash
    git clone https://github.com/your-repo/sabib.git
-   cd sabib
-
+```
 2. Install Python dependencies:
 ```bash
     pip install -r requirements.txt
@@ -44,15 +43,15 @@ SABIB aims to address this challenge with an innovative solution: a smart water 
 
 4. Run the leak detection model:
 ```bash
-
 python leak_detection_model.py
 ```
 
 
-### Pitch Vedio : (here)[https://drive.google.com/file/d/11e1IZ-wIoxZ3nnoahPDl8tspk21IvXmd/view?usp=drive_link]
+### Pitch Vedio : [here](https://drive.google.com/file/d/11e1IZ-wIoxZ3nnoahPDl8tspk21IvXmd/view?usp=drive_link)
 
-### Presentation Slides: (here)[https://www.canva.com/design/DAGX92HWk6c/DPwoumVbXRVd3yMPsINIjA/edit?utm_content=DAGX92HWk6c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
+### Presentation Slides: [here](https://www.canva.com/design/DAGX92HWk6c/DPwoumVbXRVd3yMPsINIjA/edit?utm_content=DAGX92HWk6c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+### AI Model: [here](https://colab.research.google.com/drive/1jgHgSA4g-mV0_C_Nvm_oYHGf4ks6og2C?usp=sharing)
 
 ### Prototype
 ![alt text](image-1.png)
